@@ -1,3 +1,439 @@
-*{
-    margin-bottom: auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #152d45;
+    min-width: 1200px;
+    max-width: 1200;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.a1 {
+    width: 100%;
+    background: white;
+}
+
+.a2 {
+    width: 80%;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    color: gray;
+}
+
+.a2 h4 {
+    color: black;
+    font-size: 13px;
+}
+
+.a2 button {
+    background: #2eae69;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 11px;
+}
+
+.a3 {
+    width: 80%;
+    height: 45px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a4 {
+    width: 100px;
+    height: 40px;
+}
+
+.a4 img {
+    width: 100%;
+    height: 100%;
+}
+
+.a5 {
+    display: flex;
+    gap: 17px;
+    font-size: 11px;
+}
+.b1 {
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+}
+.b2 {
+    font-size: 10px;
+    color: gray;
+    margin-bottom: 25px;
+}
+.b3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.b4 {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.b5, .b8 {
+    width: 50%;
+    height: 180px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    color: white;
+}
+
+.b5 {
+    background: #30b66e;
+}
+
+.b8 {
+    background: #21bfd0;
+}
+
+.b6, .b9 {
+    width: 65%;
+    padding: 17px 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.b6 h2, .b9 h2 {
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.b6 p, .b9 p {
+    font-size: 9px;
+    margin-bottom: 10px;
+}
+
+.b6 h5, .b9 h5 {
+    font-size: 9px;
+    margin-bottom: 12px;
+}
+
+.b6 a, .b9 a {
+    display: inline-block;
+    background: white;
+    color: #269e60;
+    border-radius: 20px;
+    padding: 6px 17px;
+    font-size: 9px;
+}
+
+.b7, .b10 {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 60%;
+    top: 0;
+}
+
+.b7 img, .b10 img {
+    width: 100%;
+    height: 100%;
+}
+.c1 {
+    width: 80%;
+    margin: auto;
+    padding-top: 65px;
+}
+.c1 > h2 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 35px;
+}
+.c2 {
+    display: flex;
+    gap: 12px;
+}
+.c3, .c5, .c7 {
+    width: 33.3%;
+    position: relative;
+}
+.c3 > h1, .c5 > h1, .c7 > h1 {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    color: #2eae69;
+    font-size: 40px;
+}
+
+.c4, .c6, .c8 {
+    min-height: 125px;
+    padding: 14px;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 0 5px 18px #00000018;
+    position: relative;
+    z-index: 1;
+}
+
+.c4 span, .c6 span, .c8 span {
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background: #2eae69;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.c4 p, .c6 p, .c8 p {
+    font-size: 9px;
+    color: #333;
+}
+.d1 {
+    width: 80%;
+    margin: auto;
+    padding-top: 65px;
+    padding-bottom: 75px;
+}
+.d1 > h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.d2 {
+    display: flex;
+    gap: 10px;
+}
+.d3, .d4, .d5, .d6 {
+    width: 25%;
+    height: 137px;
+    border: 1px solid #ccd5dc;
+    border-radius: 2px;
+    padding: 10px;
+}
+.d3 span, .d4 span, .d5 span, .d6 span {
+    width: 24px;
+    height: 24px;
+    background: #2eae69;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.d3 h3, .d4 h3, .d5 h3, .d6 h3 {
+    color: #269c5c;
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+
+.d3 p, .d4 p, .d5 p, .d6 p {
+    font-size: 8px;
+    margin-bottom: 7px;
+}
+.e1 {
+    width: 100%;
+    min-height: 280px;
+    background: #242424;
+    color: white;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.e2 {
+    width: 70%;
+    padding: 40px 0 30px 10%;
+}
+
+.e2 h2 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.e3 {
+    display: flex;
+    gap: 15px;
+}
+
+.e4, .e5 {
+    width: 50%;
+}
+
+.e4 p, .e5 p {
+    font-size: 8px;
+    color: #ddd;
+    margin-bottom: 11px;
+}
+
+.e6 {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    left: 70%;
+    top: 0;
+}
+
+.e6 img {
+    width: 100%;
+    height: 100%;
+}
+.f1 {
+    width: 100%;
+    min-height: 375px;
+    background: #f0f5f8;
+    padding: 65px 10%;
+}
+
+.f1 > h2 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.f2 {
+    display: flex;
+    gap: 10px;
+}
+
+.f3, .f4, .f5, .f6 {
+    width: 25%;
+    height: 190px;
+}
+
+.f3 img, .f4 img, .f5 img, .f6 img {
+    width: 100%;
+    height: 100%;
+}
+.g1 {
+    width: 80%;
+    min-height: 205px;
+    margin: 100px auto 65px;
+    background: #242424;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.g2 {
+    width: 70%;
+    padding: 25px;
+    position: relative;
+    z-index: 1;
+}
+.g2 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.g2 > p {
+    font-size: 8px;
+    margin-bottom: 12px;
+}
+
+.g2 form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.g3, .g4 {
+    width: 45%;
+}
+
+.g2 label {
+    display: block;
+    font-size: 9px;
+    margin-bottom: 5px;
+}
+
+.g2 input {
+    width: 100%;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+    padding: 7px 12px;
+    font-size: 9px;
+}
+
+.g2 button {
+    width: 45%;
+    height: 27px;
+    background: #2eae69;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 9px;
+}
+
+.g2 small {
+    display: block;
+    font-size: 7px;
+    color: #bbb;
+    margin-top: 12px;
+}
+
+.g5 {
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    left: 65%;
+    top: 0;
+}
+
+.g5 img {
+    width: 100%;
+    height: 100%;
+}
+.h1 {
+    width: 100%;
+    min-height: 180px;
+    background: #269c5c;
+    color: white;
+    padding: 25px 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.h2, .h4, .h5, .h6, .h7 {
+    width: 20%;
+}
+
+.h3 {
+    width: 100px;
+    height: 35px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.h3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.h1 h3 {
+    font-size: 10px;
+    margin-bottom: 12px;
+}
+
+.h1 p {
+    font-size: 8px;
+    margin-bottom: 8px;
 }
